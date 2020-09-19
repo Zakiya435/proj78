@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import{View, Text, TextInput, StyleSheet, TouchableOpacity, Image, Alert, Modal, KeyboardAvoidingView} from 'react-native';
 import db from '../config';
 import firebase from 'firebase';
-import SantaAnimation from '../components/SantaClaus';
 
 export default class WelcomeScreen extends Component{
     constructor(){
